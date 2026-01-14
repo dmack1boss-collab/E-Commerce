@@ -149,6 +149,10 @@ header_img--wrapper {
     align-items: center;
 }
 
+.no-cursor {
+    cursor: not-allowed;
+}
+
 
 
 /* 
@@ -247,6 +251,7 @@ Highlights
 #features {
     padding-top: 8vw;
     background-color: rgba(115, 66, 214, 0.1);
+    
 }
 
 .books {
@@ -294,4 +299,45 @@ Highlights
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+}
+
+/* 
+Explore
+*/
+
+#explore {
+    border-color: rgba(115, 66, 214, 0.1);
+}
+
+/* 
+Footer
+*/
+
+footer {
+    background-color: #242424;
+
+}
+
+.footer__logo {
+    display: flex;
+}
+
+.footer__logo--img {
+    width: 160px;
+    filter: grayscale(1) invert(1);
+
+}
+
+.footer__link,
+.footer_copyright {
+    color: #fff;
+}
+
+.footer__list {
+    margin: 20px 0 24px 0;
+
+}
+
+.footer__link {
+    padding: 0 8px;
 }
