@@ -343,3 +343,40 @@ footer {
 .footer__link {
     padding: 0 8px;
 }
+
+/* Small Phones, Tablets, Large Smartphones */
+@media (max-width:768px) {
+    .header_description {
+        padding: 0 24px;
+    }
+
+h1 {
+    font-size: 40px;
+
+}
+h2 {
+    font-size: 26px;
+}
+button {
+    font-size: 18px;
+}
+.book {
+    width: 50%;
+}
+}
+
+/*Small Phones, Large Smartphones*/
+@media (max-width:550px) {
+    .btn__menu {
+        display: block;
+    }
+    
+.nav_links {
+    display: none;
+}
+.highlight {
+    width: 100%;
+}
+.highlight:not(:last-child)
+margin-bottom: 24px;
+}
