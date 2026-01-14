@@ -140,6 +140,7 @@ header_img--wrapper {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    flex-direction: column;
 
 }
 
@@ -307,6 +308,7 @@ Explore
 
 #explore {
     border-color: rgba(115, 66, 214, 0.1);
+    width: 100%;
 }
 
 /* 
